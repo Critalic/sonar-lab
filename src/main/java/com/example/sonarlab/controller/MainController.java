@@ -14,8 +14,7 @@ public class MainController {
     }
 
     @GetMapping("/wrong")
-    public ResponseEntity<String> getwrong() {
-        ResponseEntity reTurn = null;
-        return reTurn;
+    public ResponseEntity<String> getWrong() {
+        return ResponseEntity.ok("wrong");
     }
 }
